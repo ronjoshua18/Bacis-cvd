@@ -384,12 +384,17 @@
 
 @media screen and (max-width:500px) {
     .hm-services .hm-services__item{
-        margin: 7rem .1rem;
+        margin: 0 4rem;
     }
 
     .hm-services .hm-services__wrapper{
        display: block;
     }
+
+    .hm-services .hm-services__item:nth-child(2){
+        margin: 3rem 3rem 3rem 3rem;
+    }
+
 }
 
 
