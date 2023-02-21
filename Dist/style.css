@@ -135,6 +135,7 @@
      position: relative;
      position: fixed;
      width: 100%;
+     z-index: 99;
 }
 
 .header .branding img{
@@ -340,7 +341,67 @@
     color: #ffffff;
 }
 
+/*-------------------About------------------------*/
+
+.about{
+    background: #ffffff;
+    padding: 1rem;
+   
+}
+
+.about .about__wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0 0;
+}
+
+.about .about__text h2{
+    color: #ffa700;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin: 5rem 0;
+    line-height: 0.5;
+} 
+
+.about .about__text p{
+    max-width: 75rem;
+    text-align: justify;
+    margin: 3rem 0;
+}
+
+.image1{
+    position: relative;
+    width: 50rem;
+    
+}
+
+.image2{
+    position: absolute;
+    width: 50rem;
+    opacity: 0.4;
+    
+}
+
+/*-----Responsive about-------*/
+@media screen and (max-width:500px){
+    .about .about__wrapper{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 
 
+    .image1{
+        width: 20rem;
+        height: auto;
+        
+    }
+
+    .image2{
+        width: 20rem;
+        height: auto;
+        opacity: .3;
+    }
+
     
-    
+}
