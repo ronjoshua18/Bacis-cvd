@@ -592,9 +592,29 @@
      display: flex;
 }
 
-.footer .footer__wrapper .socials a i{
+.footer .footer__wrapper .social a i{
     text-decoration: none;
     color: hsl(0, 0%, 50%);
     font-size: 2rem;
     margin-right: 2rem;
+}
+
+/*-----LATEST MEADIA QUERY-------*/
+@media screen and (max-width:500px){
+    .footer{
+        padding: 0 5rem;
+    }
+
+    .footer .footer__wrapper .social{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer .footer__wrapper p{
+        margin-top: 2rem;
+    }
+
+    .footer .footer__wrapper{
+        flex-direction: column;
+    }
 }
