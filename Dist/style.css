@@ -599,6 +599,10 @@
     margin-right: 2rem;
 }
 
+.footer .footer__wrapper .social ul li i:hover{
+    color: hsl(0, 0%, 100%);
+}
+
 /*-----LATEST MEADIA QUERY-------*/
 @media screen and (max-width:500px){
     .footer{
