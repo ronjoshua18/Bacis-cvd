@@ -433,9 +433,10 @@
     margin: 3rem 0;
 }
 
-.image1{
+.image0{
     position: relative;
     width: 50rem;
+    height: 50rem;
     
 }
 
@@ -455,7 +456,7 @@
     }
 
 
-    .image1{
+    .image0{
         width: 20rem;
         height: auto;
         
@@ -621,4 +622,189 @@
     .footer .footer__wrapper{
         flex-direction: column;
     }
+}
+
+
+/*-------------------About1------------------------*/
+
+.about1{
+    background: #ffffff;
+    padding: 18rem 0 12rem 0;
+     
+} 
+
+.about1 .container .about1__wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0 0;
+}
+
+.about1 .about1__text h1{
+    color: #ffa700;
+    font-size: 8rem;
+    font-weight: 700;
+    margin: 2rem 0;
+    line-height: 0.1;
+    margin-bottom: 5rem;
+}
+
+.about1 .about1__text p{
+    max-width: 50rem ;
+    text-align: justify;
+    margin: 4rem 0;
+    font-size: 2rem;
+}
+
+.about1 .about1__wrapper .socials{
+    display: flex;
+    
+}
+
+.about1 .container .socials ul{
+    display: flex;
+}
+.about1 .container .socials ul li{
+    margin-right: 2rem;
+}
+
+.about1 .container .socials ul li a i{
+    font-size: 4rem;
+    color: #ffa700;
+    
+}
+.about1 .about1__wrapper .socials a i{
+    text-decoration: none;
+    color: hsl(39, 100%, 100%);
+    font-size: 2rem;
+    margin-right: 2rem;
+}
+
+.about1 .chevron {
+position: relative;
+}
+.about1 .chevron i{
+color: #ffa700;
+font-size: 5rem;
+position: absolute;
+
+left: 50%;
+}
+
+
+
+/*----------about responsive---------------*/
+@media screen and (max-width:500px){
+    .about1{
+        padding: 7rem 2rem;
+       
+    }
+.about1 .about1__wrapper{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.about1 .about1__wrapper .about1__text{
+    margin-top: 19rem;
+}
+
+.about1 .about1__wrapper .about1__text h1{
+    font-size: 4rem;
+}
+
+.image1{
+    width: 20rem;
+    height: auto;
+    position: absolute;
+    margin-top: 2rem;
+}
+
+.about1 .about1__wrapper .about1__text p{
+    padding-top: 1rem;
+    text-align: center;
+    margin-top: 5rem;
+    max-width: 45rem;
+}
+
+.about1 .chevron{
+    display: flex;
+    justify-content: center;
+    right: 7%;
+}
+
+}
+
+/*-----------------------recent Trend------------------------------*/
+.recent{
+    
+        background: #2b2b2b; 
+        padding: 5rem 0;
+}
+.recent .recent__title{
+    margin-bottom: 5rem;
+    
+}
+
+.recent .recent__title h2{
+    color: #ffa700;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.recent .recent__title p{
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.recent .recent__wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5rem;
+}
+
+.recent .recent__item{
+    background: #ffffff;
+    border-radius: 3rem;
+}
+
+.recent .recent__wrapper .recent__item img{
+    width: 100%;
+}
+
+.recent .recent__item .recent__text{
+    padding: 2rem;
+}
+
+.recent .recent__item .recent__text h4{
+    color: #ffa700;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.recent .recent__item .recent__text p{
+    margin: 3rem 0;
+    font-weight: 600 ;
+    font-size: 1.8rem;
+}
+.recent .recent__item .recent__text a{
+   color: #ffa700;
+}
+
+/*-----recent MEADIA QUERY-------*/
+@media screen and (max-width:500px){
+    .recent .recent__item{
+        margin: 0 4rem;
+    }
+    .recent .recent__title{
+        text-align: center;
+    }
+
+    .recent .recent__wrapper{
+       display: block;
+    }
+
+    .recent .recent__item{
+        margin: 5rem 5rem;
+    }
+
 }
