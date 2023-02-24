@@ -130,7 +130,7 @@
 }
 /*----------Header-----------*/
 .header{
-     background: black;
+     background: #2b2b2b;
      padding: 2rem 0;
      position: relative;
      position: fixed;
@@ -1369,6 +1369,98 @@ left: 50%;
 
 
 
+
+
+
+
+    /*------------------main contact---------------------------*/
+    .contact1{
+        padding: 20rem 0 5rem 0;
+        background: #2b2b2b;
+    }
+
+    .contact1 .contact__title h1{
+        color: #ffa700;
+        font-size: 5rem;
+        font-weight: 600;
+        padding-bottom: 3rem;
+    } 
+
+
+    .contact1 .contact__title {
+        padding-bottom: 2rem;
+        
+    } 
+
+    .contact1 .contact__title p{
+        color: #ffffff;
+        padding-bottom: 2rem;
+        
+    } 
+
+    .contact1 .contact__left .con table tr td {
+        color: #ffffff;
+        padding-bottom: 2rem;
+        font-size: 2rem;
+        padding-right: 3rem;
+    }
+
+    .contact1 .contact__left .con table tr td i {
+        color: #ffa700;
+        
+    }
+
+
+.contact1 .social1 a i{
+    color: #ffffff;
+    font-size: 1;
+    padding-right: 1rem;
+}
+
+.contact1 .contact1_wrapper{
+    display: flex;
+}
+
+.contact1 .contact__form{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    padding: 5rem;
+}
+
+.contact1 .contact1_wrapper .contact__form input{
+    height:4rem;
+    padding: 2rem;
+    margin: 1rem 0 ;
+
+}
+
+.contact1 .contact1_wrapper .contact__form input:nth-child(3){
+    padding-bottom: 15rem;
+}
+
+.contact1 .contact1_wrapper .contact__form  .contact__btn{
+    text-align: right;
+}
+.contact1 .contact1_wrapper .contact__form  .contact__btn button{
+    padding: 1.5rem 2.5rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
 /*-------------REPEATABLE PATTERN-----------------*/
 .btn{
     padding: 1.2rem 1.5rem;
@@ -1431,3 +1523,7 @@ left: 50%;
     background: #2b2b2b;
     color: #ffffff;
     border: 1px solid #2b2b2b;}
+
+    .box__shadow{
+        box-shadow: 0 0 1rem  0.5rem black;
+    }
