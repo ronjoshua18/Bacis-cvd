@@ -1022,27 +1022,27 @@ left: 50%;
 /*----------------------service----------------------------*/
 .service1{
     background: #ffffff;
-    padding: 15rem 0 12rem 0;
+    padding: 13rem 0 3rem 0;
+    
 }
 
-.service1 .container{
-    max-width: 140rem;
-    width: 100;
-    padding: 2rem;
-    margin: 0 auto;
-}
 
 .service1 .service1__wrapper{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 0 0 0;
+    margin: 0 auto;
+
 }
 
 .service1 .service1__wrapper .service1__text{
     padding: 1rem;
-    max-width: 50%;
+    max-width: 45%;
 
+}
+.service1 .service1__wrapper .service1__text p{
+    margin-bottom: 3rem;
+    text-align: justify;
 
 }
 
@@ -1059,14 +1059,15 @@ left: 50%;
     color: #ffa700;
     font-size: 3rem;
     font-weight: 700;
+    margin-bottom: 1rem;
     
 }
 
 
 .service1 .service1__wrapper .service1__text h2{
     color: #ffa700;
-    font-size: 5rem;
-    font-weight: 550;
+    font-size: 7rem;
+    font-weight: 800;
     margin-bottom: 7rem;
 }
 
@@ -1074,8 +1075,9 @@ left: 50%;
     margin-top:5rem;
 }
 
-.service1 .service1__wrapper .price p{
-    font-size: 1rem;
+.service1 .service1__wrapper .service1__text .price p{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
     
 }
 
@@ -1083,6 +1085,56 @@ left: 50%;
     font-size: 2rem;
    
 }
+
+.service1 .arrow {
+    text-align: center;
+    
+    }
+
+    .service1 .arrow a i {
+        color: #ffa700;
+        font-size: 4rem;
+        }
+
+
+ @media screen and (max-width:500px){
+        .service1 {
+            padding: 12rem 0 2rem 0;
+            background: #fff;
+            
+
+        }
+
+        .service1 .service1__wrapper{
+              flex-direction: column-reverse;
+
+        }
+
+    .service1 .service1__wrapper .service1__text h2{
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .service1 .service1__wrapper img{
+        width: 30rem;
+    }
+
+    .service1 .service1__wrapper .service1__text{
+        padding: 1rem;
+        max-width: 80%;
+
+    
+    }
+
+    .service1 .service1__wrapper .service1__text p
+    {
+       text-align: justify;
+        }
+        }
+        
+    
+
+
 
 
 
@@ -1093,72 +1145,228 @@ left: 50%;
 
 .service2{
     background: #2b2b2b;
-    padding: 15rem 0 12rem 0;
+    padding: 13rem 0 3rem 0;
+    
 }
 
-.service1 .container{
-    max-width: 140rem;
-    width: 100;
-    padding: 2rem;
-    margin: 0 auto;
-}
-
-.service1 .service1__wrapper{
+.service2 .service2__wrapper{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 0 0 0;
+    margin: 0 auto;
+    flex-direction: row-reverse;
+
 }
 
-.service1 .service1__wrapper .service1__text{
+.service2 .service2__wrapper .service2__text{
     padding: 1rem;
-    max-width: 50%;
+    max-width: 45%;
 
+}
+.service2 .service2__wrapper .service2__text p{
+    margin-bottom: 3rem;
+    text-align: justify;
+    color: #ffffff;
 
 }
 
-.service1 .service1__wrapper .service1__text .price{
+.service2 .service2__wrapper .service2__text .price{
     margin-bottom: 10rem;
 }
 
-.service1 .service1__text .service__item{
+.service2 .service2__text .service__item{
     margin-top: 3rem;
 
 }
 
-.service1 .service1__text .price h3{
+.service2 .service2__text .price h3{
     color: #ffa700;
     font-size: 3rem;
     font-weight: 700;
+    margin-bottom: 1rem;
     
 }
 
 
-.service1 .service1__wrapper .service1__text h2{
+.service2 .service2__wrapper .service2__text h2{
     color: #ffa700;
-    font-size: 5rem;
-    font-weight: 550;
+    font-size: 7rem;
+    font-weight: 800;
     margin-bottom: 7rem;
 }
 
-.service1 .service1__wrapper .price{
+.service2 .service2__wrapper .price{
     margin-top:5rem;
 }
 
-.service1 .service1__wrapper .price p{
-    font-size: 1rem;
+.service2 .service2__wrapper .service2__text .price p{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
     
 }
 
-.service1 .service1__wrapper .service1__text p{
+.service2 .service2__wrapper .service2__text p{
+    font-size: 2rem;
+   
+}
+
+.service2 .arrow {
+    text-align: center;
+    
+    }
+
+    .service2 .arrow a i {
+        color: #ffa700;
+        font-size: 3rem;
+        }
+
+
+        @media screen and (max-width:500px){
+            .service2 {
+                padding: 5rem 0 5rem 0;
+                
+                
+    
+            }
+    
+            .service2 .service2__wrapper{
+                  flex-direction: column-reverse;
+    
+            }
+    
+        .service2 .service2__wrapper .service2__text h2{
+            font-size: 4rem;
+            text-align: center;
+        }
+    
+        .service2 .service2__wrapper img{
+            width: 30rem;
+        }
+    
+        .service2 .service2__wrapper .service2__text{
+            padding: 1rem;
+            max-width: 80%;
+        
+        }
+
+            }
+
+
+            
+           
+            
+        
+    
+
+
+
+
+
+
+
+.service3{
+    background: #ffffff;
+    padding: 13rem 0 2rem 0;
+    
+}
+
+
+.service3 .service3__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.service3 .service3__wrapper .service3__text{
+    padding: 1rem;
+    max-width: 45%;
+
+}
+.service3 .service3__wrapper .service3__text p{
+    margin-bottom: 3rem;
+    text-align: justify;
+
+}
+
+.service3 .service3__wrapper .service3__text .price{
+    margin-bottom: 10rem;
+}
+
+.service3 .service3__text .service__item{
+    margin-top: 3rem;
+
+}
+
+.service3 .service3__text .price h3{
+    color: #ffa700;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    
+}
+
+
+.service3 .service3__wrapper .service3__text h2{
+    color: #ffa700;
+    font-size: 7rem;
+    font-weight: 800;
+    margin-bottom: 7rem;
+}
+
+.service3 .service3__wrapper .price{
+    margin-top:5rem;
+}
+
+.service3 .service3__wrapper .service3__text .price p{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    
+}
+
+.service3 .service3__wrapper .service3__text p{
     font-size: 2rem;
    
 }
 
 
+@media screen and (max-width:500px){
+    .service3 {
+        padding: 1rem 0 -2rem 0;
+        background: #fff;
+
+        
+
+    }
+
+    .service3 .service3__wrapper{
+          flex-direction: column-reverse;
+
+    }
+
+.service3 .service3__wrapper .service3__text h2{
+    font-size: 4rem;
+    text-align: center;
+}
+
+.service3 .service3__wrapper img{
+    width: 30rem;
+}
+
+.service3 .service3__wrapper .service3__text{
+    padding: 1rem;
+    max-width: 80%;
+
+}
+
+.service3 .service3__wrapper .service3__text p
+{
+   text-align: justify;
+    }
+    }
     
 
-    
 
 
 /*-------------REPEATABLE PATTERN-----------------*/
